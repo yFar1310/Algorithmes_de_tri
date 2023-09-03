@@ -77,6 +77,7 @@ void printArray(int T[],int size)
   cout << endl;
 }
 
+//MAIN
 int main()
 {
   int T[] = {10,3,2,5,1,6,7,4,9,8};
