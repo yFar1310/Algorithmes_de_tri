@@ -1,1 +1,1 @@
-# Algorithmes-de-tri
+# Algorithmes_de_tri
