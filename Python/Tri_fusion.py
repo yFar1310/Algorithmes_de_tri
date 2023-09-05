@@ -1,4 +1,4 @@
-#Tri fusion fonction de division du tableau
+#Tri fusion fonction pour qu'on puisse division du tableau
 def tri_fusion(t):
     if  len(t) <= 1: 
         return t
