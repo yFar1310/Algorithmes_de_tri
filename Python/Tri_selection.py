@@ -15,7 +15,7 @@ def tri_par_selection(T):
                 T[i],T[min]=T[min],T[i] 
     return T
                 
-            
-            
+
+#Exemple
 L=[2,3,8,11,14,13,65,23,65,85,462,25,98,114]
 print(tri_par_selection(L))
