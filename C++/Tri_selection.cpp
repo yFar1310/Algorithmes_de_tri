@@ -21,6 +21,7 @@ void selectionSort(int arr[], int size) {
     }
 }
 
+//MAIN
 int main() {
     int arr[] = {64, 25, 12, 22, 11};
     int size = sizeof(arr) / sizeof(arr[0]);
