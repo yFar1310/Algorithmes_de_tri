@@ -1,4 +1,5 @@
-public class TriParSelection {
+public class TriParSelection
+{
 
 
     public static void TriSelec(int[] tab){
