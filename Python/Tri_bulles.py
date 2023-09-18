@@ -17,7 +17,11 @@ def bubble_sort(arr):
         if not swapped:
             break
 
+
+
 # Exemple d'utilisation
+
+
 arr = [64, 34, 25, 12, 22, 11, 90]
 bubble_sort(arr)
 print("Liste triée : ", arr)
