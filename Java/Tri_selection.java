@@ -1,35 +1,32 @@
-public class TriParSelection
-{
+public class Tri_selection {
 
+    public static void triSelection(int[] tableau) {
+        int n = tableau.length;
 
-    public static void TriSelec(int[] tab){
-        int temp=0;
-        for(int i=0;i<tab.length;i++){
-            int x=tab[i];
-            int y=i;
-            while(y>0 && tab[y-1]>temp){
-                y=i+1;
-                temp=x;
-                tab[i]=tab[i+1];
+        for (int i = 0; i < n - 1; i++) {
+            int indiceDuMinimum = i;
+
+            // Recherche de l'indice du minimum dans le reste du tableau
+            for (int j = i + 1; j < n; j++) {
+                if (tableau[j] < tableau[indiceDuMinimum]) {
+                    indiceDuMinimum = j;
+                }
             }
-            tab[y]=temp;
-            
+
+            // Échange du minimum trouvé avec l'élément actuel
+            int temp = tableau[i];
+            tableau[i] = tableau[indiceDuMinimum];
+            tableau[indiceDuMinimum] = temp;
         }
     }
-
-    public static String toString(int[] tab){
-        String s="";
-        for(int i=0;i<tab.length;i++){
-            s+=(tab[i]+" ");
-        }
-        return s;
-    }
-
-
 
     public static void main(String[] args) {
-        int[] tab={4,1,3,2};
-        TriSelec(tab);
-        System.out.println(toString(tab));
+        int[] tableau = {64, 25, 12, 22, 11};
+        triSelection(tableau);
+
+        System.out.println("Tableau trié :");
+        for (int valeur : tableau) {
+            System.out.print(valeur + " ");
+        }
     }
 }
