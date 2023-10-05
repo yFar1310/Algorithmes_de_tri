@@ -2,7 +2,7 @@ Les algorithmes de tri ont des complexités différentes en fonction de la mani�
 Voici un aperçu des complexités des quatre algorithmes de tri que vous avez mentionnés : le tri fusion, le tri par insertion, le tri par sélection et le tri rapide, en comparant leurs performances relatives.
 
 Tri Fusion (Merge Sort) :
-
+ 
 *Complexité dans le pire cas : O(n log n)
 
 *Complexité dans le meilleur cas : O(n log n)
