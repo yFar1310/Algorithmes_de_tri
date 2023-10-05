@@ -8,7 +8,7 @@ Tri Fusion (Merge Sort) :
 *Complexité dans le meilleur cas : O(n log n)
 
 *Complexité dans le cas moyen : O(n log n)
-
+ 
 Le tri fusion est un algorithme de tri stable qui garantit une complexité de fusion optimale, ce qui en fait un bon choix pour de grandes quantités de données. 
 Cependant, il nécessite une mémoire supplémentaire pour le stockage temporaire des sous-tableaux.
 
