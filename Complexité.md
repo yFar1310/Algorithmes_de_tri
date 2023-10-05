@@ -35,7 +35,7 @@ Tri Sélection (Selection Sort) :
 Il n'est pas stable et ne fonctionne pas bien pour des données presque triées.
 
 Tri Rapide (Quick Sort) :
-
+ 
 *Complexité dans le pire cas : O(n^2)
 
 *Complexité dans le meilleur cas (en moyenne) : O(n log n)
