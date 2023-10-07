@@ -52,8 +52,10 @@ Tri à Bulles (Bubble Sort) :
 
 *Complexité dans le pire cas : O(n^2)
 
-Complexité dans le meilleur cas (en moyenne) : O(n)
-Complexité dans le cas moyen : O(n^2)
+*Complexité dans le meilleur cas (en moyenne) : O(n)
+
+*Complexité dans le cas moyen : O(n^2)
+
 Le tri à bulles est un algorithme de tri simple mais peu efficace en comparaison avec des algorithmes de tri plus avancés comme le tri rapide ou le tri fusion. Son principal inconvénient est sa complexité quadratique, ce qui signifie qu'il a une performance médiocre, surtout pour de grandes listes. Dans le meilleur des cas, lorsque la liste est déjà triée, sa complexité est linéaire, mais dans le pire des cas, il nécessite un nombre quadratique d'opérations de comparaison et d'échange.
 
 En pratique, le tri à bulles est rarement utilisé pour trier de grandes listes de données en raison de sa lenteur. Il est principalement utilisé à des fins éducatives pour illustrer le concept de tri, car il est facile à comprendre et à mettre en œuvre. Pour des applications réelles, d'autres algorithmes de tri plus performants comme le tri rapide ou le tri fusion sont préférés.
