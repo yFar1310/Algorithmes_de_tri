@@ -50,7 +50,8 @@ Le tri par insertion est plus efficace pour de petites listes ou des listes pres
 
 Tri à Bulles (Bubble Sort) :
 
-Complexité dans le pire cas : O(n^2)
+*Complexité dans le pire cas : O(n^2)
+
 Complexité dans le meilleur cas (en moyenne) : O(n)
 Complexité dans le cas moyen : O(n^2)
 Le tri à bulles est un algorithme de tri simple mais peu efficace en comparaison avec des algorithmes de tri plus avancés comme le tri rapide ou le tri fusion. Son principal inconvénient est sa complexité quadratique, ce qui signifie qu'il a une performance médiocre, surtout pour de grandes listes. Dans le meilleur des cas, lorsque la liste est déjà triée, sa complexité est linéaire, mais dans le pire des cas, il nécessite un nombre quadratique d'opérations de comparaison et d'échange.
