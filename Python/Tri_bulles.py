@@ -18,7 +18,6 @@ def bubble_sort(arr):
             break
 
 
-
 # Exemple d'utilisation
 
 
