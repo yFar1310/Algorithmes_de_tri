@@ -9,7 +9,7 @@ void fusion(int C[],int first,int mid,int last)
   int n2 = last - mid;
 
   int A[n1];
-  int B[n2];
+  int B[n2]; 
  
   for(int i=0 ; i<n1 ; i++)
     A[i] = C[first + i];
