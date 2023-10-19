@@ -5,7 +5,7 @@ using namespace  std;
 void fusion(int C[],int first,int mid,int last)
 {
   //Création des deux tableaux A et B (A[first,...,mid] & B[mid+1,...,last])
-  int n1 = mid - first + 1;
+  int n1 = mid - first + 1; 
   int n2 = last - mid;
 
   int A[n1];
